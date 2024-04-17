@@ -1,0 +1,91 @@
+.parentbox {
+  width: 80%;
+  overflow: hidden;
+  margin:auto;
+  margin-top: 100px;
+}
+
+.foto {
+  float: right;
+  width: 50%;
+ height: 700px;
+
+}
+
+.foto img{
+  
+  width: 300px;
+}
+
+.deskripsi {
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+}
+
+.deskripsi .info {
+  line-height: 1.8;
+  color: rgb(18,11,49);
+}
+
+.deskripsi .price {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.deskripsi .tittle {
+  margin:0;
+}
+
+.deskripsi .jenis {
+  color: #acaeb2;
+}
+
+.deskripsi a{
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 500;
+  background: rgb(225,159,159);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: all 0.8s;
+}
+
+.deskripsi a:hover {
+  color:#fff;
+  background: rgb(221,135,135);
+  transition: all 0.8s;
+}
+
+
+
+.review-box h2{
+  text-align: center;
+}
+
+ .review-box img{
+  width: 80px;
+  height:80px;
+  border-radius: 11px;
+  float: left;
+  margin-right: 16px;
+  display: inline-block;
+  text-align: center;
+ }
+
+
+ .review-box .User-p, h3{
+    margin: 0;
+ }
+
+ .review-box .user h3{
+  padding-top: 10px;
+  margin-bottom: 80px;
+ }
+
+
+
